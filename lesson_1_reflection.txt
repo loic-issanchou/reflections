@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It indicates the line number of the bug, and so it is easy to find the bug and correct him.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It allows me to avoid bug in my code by having access to previous version when the current version make problems.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Choosing manually when to create a commit is a personal choice and so it respect the logic of the person who do that. Sometimes, I code a difficult concept and the I want to create a commit at this point. But, this "difficult concept" is subjective and it may be no difficult for an other one. So, for me this commit appear logical but not necessary for an other person.
+    On the other hand, create automatically commits is a sure way to have commit in history. Because, sometimes we can forget to create them.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    A new feature ona program can be affect more than a single file. And since we create a commit when a new feature was codded, it is useful to save multiple files in one commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    "git log" allow to find which feature was added to a commit and "git diff" alow to view which differencies there are.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Version control allow to keep safe right version. So we can then add a new feature to our code without modify the right version which is store to the most recent commit.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try to modify a commit and see if "*" is shown to the prompt to indicate me that the modification was not saved yet.
