@@ -18,7 +18,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It avoids to update code on the local repositery based on a commit which is not the latest created on github repositery. And so, it avoids conflicts when then we sync the local repositery with the online repositery.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
