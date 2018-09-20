@@ -29,4 +29,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Make changes in a separate branch allow to creata new features without breaking master branche adding bug on the code. But in this case, our new "testing" branche will not be up-to-date with the master branch on GitHub. So, we are exposed to no be able then to merge our "testing" branche on GitHub master branche. Ie, our pull request (merging local testing branche into GitHub master branche) could be refuses. So we will must resolved conflict(s) before that our pull request can be accepted.
+    On the other hand, make changes on the master local branche, which is supposed to be up-to-date, can be create a bug on the code abd it can be more difficult to resolve it. Of course, we can always charge a commit that not contains the bug.
